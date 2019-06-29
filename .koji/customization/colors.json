@@ -1,0 +1,26 @@
+{
+  "colors": {
+    "backgroundColor": "#395b88",
+    "textColor": "#fcfcfc"
+  },
+  "@@editor": [
+    {
+      "key": "colors",
+      "name": "Colors",
+      "icon": "💅",
+      "source": "colors.json",
+      "fields": [
+        {
+          "key": "textColor",
+          "name": "Text color",
+          "type": "color"
+        },
+        {
+          "key": "backgroundColor",
+          "name": "Background color",
+          "type": "color"
+        }
+      ]
+    }
+  ]
+}

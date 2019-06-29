@@ -1,0 +1,50 @@
+{
+  "name": "react-native-web-scaffold",
+  "version": "1.0.0",
+  "description": "React Native Web Scaffold",
+  "author": "alexsde",
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build-ts": "tsc && yarn run lint-ts",
+    "lint-ts": "tslint -p . -c tslint.json 'src/**/*.{ts,tsx}'",
+    "postbuild": "koji-tools pwa",
+    "prestart": "koji-tools watch &",
+    "build": "react-scripts build",
+    "watch": "tsc -w"
+  },
+  "dependencies": {
+    "@babel/core": "^7.4.5",
+    "react": "16.8.3",
+    "react-dom": "16.8.3",
+    "react-native": "0.59.9",
+    "react-native-web": "0.11.4",
+    "koji-tools": "0.5.1"
+  },
+  "devDependencies": {
+    "@types/react": "16.8.22",
+    "@types/react-native": "0.57.64",
+    "@types/react-test-renderer": "16.8.2",
+    "babel-plugin-react-native-web": "0.11.4",
+    "babel-plugin-transform-object-rest-spread": "6.26.0",
+    "babel-plugin-transform-react-jsx-source": "6.22.0",
+    "flow-bin": "0.102.0",
+    "react-art": "16.8.6",
+    "react-scripts": "3.0.1",
+    "react-test-renderer": "16.8.6",
+    "tslint": "5.18.0",
+    "typescript": "3.5.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

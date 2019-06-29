@@ -1,0 +1,26 @@
+{
+  "strings": {
+    "appTitle": "Welcome to React Native Web",
+    "appSubtitle": "Typescript Edition"
+  },
+  "@@editor": [
+    {
+      "key": "strings",
+      "name": "Strings",
+      "icon": "📚",
+      "source": "strings.json",
+      "fields": [
+        {
+          "key": "appTitle",
+          "name": "App Title",
+          "type": "text"
+        },
+        {
+          "key": "appSubtitle",
+          "name": "App Subtitle",
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}

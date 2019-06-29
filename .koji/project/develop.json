@@ -1,0 +1,19 @@
+{
+  "develop": {
+    "frontend": {
+      "path": "frontend",
+      "port": 3000,
+      "events": {
+        "started": "[yarn] Frontend server started",
+        "building": "[yarn] Frontend building",
+        "built": "Compiled successfully.",
+        "build-error": "[yarn] Frontend build error"
+      },
+      "startCommand": "yarn start"
+    },
+    "typescript": {
+      "path": "frontend",
+      "startCommand": "yarn watch"
+    }
+  }
+}

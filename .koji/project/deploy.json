@@ -1,0 +1,13 @@
+{
+  "deploy": {
+    "frontend": {
+      "output": "frontend/build",
+      "type": "static",
+      "commands": [
+        "cd frontend",
+        "yarn install",
+        "yarn build"
+      ]
+    }
+  }
+}
