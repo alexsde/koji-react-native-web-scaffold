@@ -5,9 +5,8 @@
   "author": "alexsde",
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=8080 react-scripts start",
     "build-ts": "tsc && yarn run lint-ts",
-    "lint-ts": "tslint -p . -c tslint.json 'src/**/*.{ts,tsx}'",
     "postbuild": "koji-tools pwa",
     "prestart": "koji-tools watch &",
     "build": "react-scripts build",
