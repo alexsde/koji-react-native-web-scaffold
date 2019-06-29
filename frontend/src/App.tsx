@@ -20,6 +20,10 @@ export default class App extends React.Component {
         ).start();
 
         StatusBar.setBarStyle("light-content");
+
+        Koji.on('change', () => {
+            this.forceUpdate();
+        });
     }
 
     public render() {
