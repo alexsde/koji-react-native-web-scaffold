@@ -9,7 +9,7 @@ export default class App extends React.Component {
         });
     }
 
-    public render() {
+    public render(): JSX.Element{
         return (
             <HomePage></HomePage>
         );

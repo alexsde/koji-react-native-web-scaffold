@@ -22,7 +22,7 @@ export default class HomePage extends React.Component {
         StatusBar.setBarStyle("light-content");
     }
 
-    public render() {
+    public render(): JSX.Element{
         const rotationStyle = {
             transform: [
                 {
