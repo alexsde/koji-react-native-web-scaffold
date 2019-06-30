@@ -11,7 +11,7 @@ module.exports = require('./webpack.base')({
   mode: 'development',
   entry: ['webpack-hot-middleware/client?reload=true','./index.tsx'],
   output: {
-    path: path.join(__dirname, 'build'),
+    path: path.join(path.resolve(path.resolve(__dirname, '..'), '..'), 'build'),
     filename: '[name].[hash].js',
     chunkFilename: '[name].[chunkhash].chunk.js'
   },

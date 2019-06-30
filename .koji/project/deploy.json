@@ -1,7 +1,7 @@
 {
   "deploy": {
     "frontend": {
-      "output": "frontend/build",
+      "output": "frontend/dist",
       "type": "static",
       "commands": [
         "cd frontend",

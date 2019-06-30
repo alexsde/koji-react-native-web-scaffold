@@ -2,7 +2,7 @@ import * as React from "react";
 import {Animated,StatusBar,StyleSheet,Text,View} from "react-native";
 import Koji from 'koji-tools';
 
-export default class HomePage extends React.Component {
+export default class HomeComponent extends React.Component {
     private imageAnimation: Animated.Value;
 
     constructor(props: any) {

@@ -1,6 +1,6 @@
 import * as React from "react";
 import Koji from 'koji-tools';
-import HomePage from './pages/HomePage/HomePage';
+import HomeComponent from './components/HomeComponent/HomeComponent';
 
 export default class App extends React.Component {
     public componentDidMount() {
@@ -11,7 +11,7 @@ export default class App extends React.Component {
 
     public render(): JSX.Element{
         return (
-            <HomePage></HomePage>
+            <HomeComponent></HomeComponent>
         );
     }
 }

@@ -6,10 +6,11 @@ const { HashedModuleIdsPlugin } = require('webpack');
 
 module.exports = require('./webpack.base')({
   mode: 'production',
-  entry: [path.join(process.cwd(), 'App.tsx')],
+  entry: './index.tsx',
   output: {
-    filename: '[name].[chunkhash].js',
-    chunkFilename: '[name].[chunkhash].chunk.js',
+    path: path.join(path.resolve(path.resolve(__dirname, '..'), '..'), 'dist'),
+    filename: '[name].[hash].js',
+    chunkFilename: '[name].[chunkhash].chunk.js'
   },
   optimization: {
     minimize: true,

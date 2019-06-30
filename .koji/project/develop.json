@@ -2,7 +2,7 @@
   "develop": {
     "frontend": {
       "path": "frontend",
-      "port": 3000,
+      "port": 8080,
       "events": {
         "started": "[yarn] Frontend server started",
         "building": "[yarn] Frontend building",
