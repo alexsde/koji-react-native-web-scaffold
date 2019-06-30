@@ -8,4 +8,4 @@ WORKDIR /usr/src/app
 COPY . .
 
 # Run install commands if we have them
-CMD yarn install --prefix frontend
+RUN yarn install --prefix frontend

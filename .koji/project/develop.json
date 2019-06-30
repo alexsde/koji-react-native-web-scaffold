@@ -10,10 +10,6 @@
         "build-error": "[yarn] Frontend build error"
       },
       "startCommand": "yarn start"
-    },
-    "typescript": {
-      "path": "frontend",
-      "startCommand": "yarn watch"
     }
   }
 }
