@@ -1,4 +1,3 @@
-const path = require('path');
 const webpack = require('webpack');
 const kojiProjectConfig = require('../../../.koji/scripts/buildConfig')();
 process.noDeprecation = true;

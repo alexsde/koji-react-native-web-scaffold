@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "React Native Web Scaffold",
   "author": "alexsde",
-  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
     "build": "NODE_ENV=production webpack --config .internals/webpack/webpack.prod.js --color -p --progress --hide-modules --display-optimization-bailout",
     "start": "NODE_ENV=development nodemon -L --watch ../.koji --watch src -e json .internals/development-server"

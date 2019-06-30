@@ -4,10 +4,10 @@
       "path": "frontend",
       "port": 8080,
       "events": {
-        "started": "[yarn] Frontend server started",
-        "building": "[yarn] Frontend building",
+        "started": "[webpack] Frontend server started",
+        "building": "[webpack] Frontend building",
         "built": "Compiled successfully.",
-        "build-error": "[yarn] Frontend build error"
+        "build-error": "[webpack] Frontend build error"
       },
       "startCommand": "yarn start"
     }
