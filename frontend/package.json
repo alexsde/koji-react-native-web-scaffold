@@ -4,8 +4,8 @@
   "description": "React Native Web Scaffold",
   "author": "alexsde",
   "scripts": {
-    "build": "NODE_ENV=production webpack --config .internals/webpack/webpack.prod.js --color -p --progress --hide-modules --display-optimization-bailout",
-    "start": "NODE_ENV=development nodemon -L --watch ../.koji --watch src -e json .internals/development-server"
+    "build": "cross-env NODE_ENV=production webpack --config .internals/webpack/webpack.prod.js --color -p --progress --hide-modules --display-optimization-bailout",
+    "start": "cross-env NODE_ENV=development nodemon -L --watch ../.koji --watch src -e json .internals/development-server"
   },
   "dependencies": {
     "@babel/core": "7.4.5",
@@ -60,7 +60,8 @@
     "webpack-cli": "3.3.5",
     "webpack-dev-middleware": "3.7.0",
     "webpack-hot-middleware": "2.25.0",
-    "webpack-pwa-manifest": "4.0.0"
+    "webpack-pwa-manifest": "4.0.0",
+    "cross-env": "5.2.0"
   },
   "browserslist": {
     "production": [
